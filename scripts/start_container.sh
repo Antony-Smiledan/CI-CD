@@ -5,4 +5,4 @@ set -e
 docker pull smiledan/ci-cd:latest
 
 # RUN THE DOCKER IMAGE AS A CONTAINER
-docker run -itd -p 5000:5000 smiledan/ci-cd:latest
+docker run -itd -p 5000:5000 smiledan/ci-cd:latest 
