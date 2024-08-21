@@ -23,4 +23,4 @@ phases:
       - docker push "$DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/ci-cd:latest"
   post_build:
     commands:
-      - echo "Build completed successfully!"
+      - echo "Build completed successfully!" 
